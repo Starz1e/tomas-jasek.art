@@ -1,0 +1,19 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #ffffff;
+  color: #333;
+  padding: 2rem;
+}
+
+.line {
+  position: absolute;
+  z-index: 10;
+}
+
+.line.vertical {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
